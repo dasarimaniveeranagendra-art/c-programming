@@ -1,0 +1,17 @@
+hello.c: In function ‘main’:
+hello.c:7:9: warning: unused variable ‘x’ [-Wunused-variable]
+
+    7 |     int x; // Unused variable
+      |         ^
+hello.c:3:6: warning: ‘unused_function_declaration’ declared in main scope [-Wmain]
+    3 | void unused_function_declaration(); // Declared but not defined
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+      hello.c: In function ‘main’:
+hello.c:5:34: error: expected ‘;’ before ‘return'
+
+    5 |     printf("Hello, World!\n")
+      |                                  ^
+      |                                  ;
+    6 |     return 0;
+      |     ~~~~~~

@@ -1,0 +1,1 @@
+the Yocto project is an open source collaborative effort.
